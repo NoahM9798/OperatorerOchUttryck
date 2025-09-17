@@ -5,8 +5,8 @@
  */
 
 Console.Write("Ange ett heltal större än 99: ");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()); 
 
-bool isSeven = number / 100 % 10 == 7;
+bool isSeven = number / 100 % 10 == 7; 
 
-Console.WriteLine($"Tredje siffran i {number} är 7: {isSeven}");
+Console.WriteLine($"Tredje siffran i {number} är 7: {isSeven}"); 
